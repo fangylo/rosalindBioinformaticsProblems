@@ -4,7 +4,7 @@ import sys
 
 
 ## Question link:
-## http://rosalind.info/problems/iprb/
+## http://rosalind.info/problems/fib/
 
 
 
@@ -30,7 +30,7 @@ def rabbitsRecurrenceRelations(month, pair):
 if __name__ == '__main__':
 
     start = time.time()
-    result = rabbitsRecurrenceRelations(28,2)
+    result = rabbitsRecurrenceRelations(28,4)
     end = time.time()
     elapsed = (end  - start)
 
