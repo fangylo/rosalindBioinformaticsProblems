@@ -27,7 +27,7 @@ def countingPointMutations(seq1, seq2):
 
 if __name__ == '__main__':
 
-    FILE = "text.txt"
+    FILE = "rosalind_hamm.txt"
     
     with open(FILE, 'r') as seqFile:
         seq1, seq2 = readSeq(seqFile)
