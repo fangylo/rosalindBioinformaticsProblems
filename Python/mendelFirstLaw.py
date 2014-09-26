@@ -23,7 +23,7 @@ def mendelFirstLaw(homDom,het,homRec):
 if __name__ == '__main__':
 
     start = time.time()
-    result = mendelFirstLaw(27,30,24)
+    result = mendelFirstLaw(24,30,15)
     end = time.time()
     elapsed = (end  - start)
 
