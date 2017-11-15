@@ -1,6 +1,7 @@
 import math
 import time
 
+# QUestion link:http://rosalind.info/problems/revc/
         
 def complementDNA(seq):
     """ (str) -> (str)"""
